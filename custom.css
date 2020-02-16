@@ -1,0 +1,234 @@
+/* github.com/amaan-ahmad */
+html {
+  overflow-x: hidden;
+  scroll-behavior: smooth !important;
+}
+.p-1 {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  z-index: 12;
+  flex-direction: column;
+  height: 100vh;
+  width: 100vw;
+}
+
+@media screen and (max-width: 700px) {
+  .two {
+    align-items: center;
+    justify-content: center;
+  }
+  .star-tiles {
+    flex-direction: column !important;
+    /* margin-top; */
+    /* overflow: hidden; */
+  }
+  .flip-card-front {
+    flex-direction: column-reverse !important;
+  }
+  .flip-card {
+    margin-top: 30vh;
+    margin-bottom: 5vh;
+  }
+
+  .subtwo {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  #content,
+  #content1 {
+    width: 100vw;
+  }
+
+  .sub1,
+  .sub {
+    align-content: center;
+  }
+  .subs1 img {
+    width: 100%;
+  }
+}
+
+.flip-card {
+  background-color: transparent;
+  width: 50vw;
+  height: 300px;
+  perspective: 1000px;
+}
+
+.flip-card-front img {
+  width: auto;
+  height: auto;
+}
+
+.flip-card-inner {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  transition: transform 0.6s;
+  transform-style: preserve-3d;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+
+.flip-card:hover .flip-card-inner {
+  transform: rotateY(180deg);
+}
+
+.flip-card-front,
+.flip-card-back {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+}
+
+.flip-card-front {
+  color: black;
+  display: flex;
+  flex-direction: row;
+}
+
+.flip-card-back {
+  background-color: black;
+  color: white;
+  transform: rotateY(180deg);
+}
+.flip-card-caption {
+  align-items: center;
+  align-self: center;
+  padding: 1em;
+  white-space: nowrap;
+  width: auto;
+  color: white;
+  background-color: transparent;
+}
+.star-tiles {
+  width: auto;
+  height: auto;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  flex-direction: row;
+}
+
+/* =========================== */
+/*          glimpse            */
+/* =========================== */
+
+.root-gl {
+  display: flex;
+  flex-direction: column;
+}
+
+.root-gl .r1 {
+  align-self: flex-end;
+}
+.root-gl .r2 {
+  align-self: flex-start;
+}
+
+.root-gl .r1,
+.root-gl .r2 {
+  position: relative;
+  display: flex;
+  flex-direction: row;
+}
+
+.elem img {
+  width: 20em;
+  height: 20em;
+}
+
+.elem {
+  color: white;
+  font-size: medium;
+  margin: 0 1em;
+}
+
+.elem p{
+  font-size : 1em;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+
+.past-elements{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+
+.past-el p{
+  font-size: 1.5em;
+}
+
+.past-el{
+  margin: 1em 0;
+}
+.past-el h3{
+  margin: 0;
+}
+
+@media screen and (max-width: 700px) {
+  .root-gl .r1 {
+    align-self: center !important;
+  }
+  .root-gl .r2 {
+    align-self: center !important;
+  }
+  .root-gl .r1,
+  .root-gl .r2 {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+  }
+  .elem img {
+    width: 40vw;
+    height: auto;
+  }
+  .elem{
+    margin: 1em 0;
+  }
+
+  .four, .f{
+    flex-direction: column;
+  }
+
+  .f > div > div > img, #divToShow > div > div > img{
+    width: 50vw;
+    height: auto;
+  }
+  .f > div > div > #overlay, #divToShow > div > div > #overlay{
+    /* height : 0; */
+    width : 50vw;
+  }
+  #divToShow{
+    flex-direction: column;
+  }
+
+  .f , #divToShow {
+    align-items: center;
+  }
+
+  .past-elements{
+    flex-direction: column;
+    align-items: left;
+  }
+
+  .past-el p{
+    align-items: flex-start;
+  }
+  
+  
+}
+/* -------------- */
+.f > div > div , #divToShow > div > div{
+  height : auto;
+  width : auto;
+}
+
+

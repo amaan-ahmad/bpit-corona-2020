@@ -1,0 +1,777 @@
+#one {
+  margin-top: 35vh;
+  height: auto;
+  width: auto;
+  background-color: black;
+  padding: 0.5rem;
+}
+
+#one h1 {
+  color: whitesmoke;
+  text-align: center;
+  font-size: 3rem;
+  font-family: "Jost", "Glacial Indifference", "Montserrat", "Open Sans",
+    sans-serif;
+}
+#one p {
+  margin: 0 1em;
+  font-weight: 300;
+  font-style: normal;
+  line-height: 1.6;
+  color: whitesmoke;
+  text-align: left/center;
+  font-size: 1rem;
+}
+#one p::first-letter {
+  font-size: xx-large;
+  color: tomato;
+}
+
+.parallax1 {
+  /* The image used */
+  background-image: url("imagesandfolder/wp3770788.jpg");
+
+  /* Full height */
+  height: 40%;
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.two {
+  display: flex;
+  flex-direction: column;
+  height: auto;
+  width: auto;
+  background-color: black;
+  color: black;
+  padding-top: 0.2rem;
+}
+
+.two h1 {
+  color: whitesmoke;
+  text-align: center;
+  font-size: 4rem;
+  font-family: "Jost", "Glacial Indifference", "Montserrat", "Open Sans",
+    sans-serif;
+}
+
+.two h2 {
+  color: whitesmoke;
+  text-align: center;
+  font-size: 1.5rem;
+  font-family: "Jost", "Glacial Indifference", "Montserrat", "Open Sans",
+    sans-serif;
+  /* margin-top: -30px; */
+}
+
+.subtwo {
+  display: flex;
+  height: auto;
+  width: 100vw;
+}
+.s1 {
+  height: auto;
+  width: 100%;
+  border-right: 3px solid black;
+}
+.subs1 {
+  position: relative;
+  left: 2vw;
+  top: 1vh;
+  height: 55vh;
+  width: 23vw;
+}
+
+.subs1 img {
+  background-image: url("SUKHE.jpeg");
+  height: 55vh;
+  width: 23vw;
+  background-repeat: no-repeat;
+}
+.s1 h1 {
+  color: whitesmoke;
+  font-family: "Jost", "Glacial Indifference", "Montserrat", "Open Sans",
+    sans-serif;
+  font-size: 2rem;
+  font-weight: 400;
+  position: relative;
+  margin-left: 18vw;
+  top: -52vh;
+}
+
+.s1 h2 {
+  color: whitesmoke;
+  font-family: "Jost", "Glacial Indifference", "Montserrat", "Open Sans",
+    sans-serif;
+  font-size: 1.5rem;
+  font-weight: 400;
+  position: relative;
+  margin-left: 23vw;
+  top: -47vh;
+}
+.s1 h3 {
+  color: whitesmoke;
+  font-family: "Jost", "Glacial Indifference", "Montserrat", "Open Sans",
+    sans-serif;
+  font-size: 1.5rem;
+  font-weight: 400;
+  position: relative;
+  margin-left: 27vw;
+  top: -45vh;
+}
+.s2 {
+  height: 70vh;
+  width: 52vw;
+}
+.s2 h1 {
+  color: whitesmoke;
+  font-family: "Jost", "Glacial Indifference", "Montserrat", "Open Sans",
+    sans-serif;
+  font-size: 2rem;
+  font-weight: 400;
+  position: relative;
+  margin-left: 16vw;
+  top: -35vh;
+}
+
+.s2 h2 {
+  color: whitesmoke;
+  font-family: "Jost", "Glacial Indifference", "Montserrat", "Open Sans",
+    sans-serif;
+  font-size: 1.75rem;
+  font-weight: 400;
+  position: relative;
+  margin-left: 18vw;
+  top: -30vh;
+}
+.s2 h3 {
+  color: whitesmoke;
+  font-family: "Jost", "Glacial Indifference", "Montserrat", "Open Sans",
+    sans-serif;
+  font-size: 2rem;
+  font-weight: 400;
+  position: relative;
+  margin-left: 26vw;
+  top: -30vh;
+}
+.subs2 {
+  position: relative;
+  left: 0vw;
+  top: 14vh;
+
+  height: 55vh;
+  width: 23vw;
+}
+
+.subs2 img {
+  background-image: url("OLLY.jpeg");
+  height: 55vh;
+  width: 23vw;
+  background-repeat: no-repeat;
+}
+
+.parallax2 {
+  /* The image used */
+  background-image: url("imagesandfolder/wp3770779.jpg");
+
+  /* Full height */
+  height: 40%;
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.three {
+  margin-top: -2rem;
+  height: fit-content;
+  width: auto;
+  background-color: black;
+}
+
+.three h1 {
+  padding-top: 2.7rem;
+  padding-left: 2.7rem;
+  color: whitesmoke;
+  text-align: left;
+  font-size: 3rem;
+  font-family: "Jost", "Glacial Indifference", "Montserrat", "Open Sans",
+    sans-serif;
+}
+
+.threes1 {
+  position: relative;
+  left: 50vw;
+  top: 0vh;
+
+  background-color: chocolate;
+  height: 40vh;
+  width: 23vw;
+}
+
+.threes1 img {
+  height: 40vh;
+  width: 23vw;
+  background-repeat: no-repeat;
+}
+
+.threes2 {
+  position: relative;
+  left: 75vw;
+  top: -52.5vh;
+
+  background-color: chocolate;
+  height: 40vh;
+  width: 23vw;
+}
+
+.threes2 img {
+  height: 40vh;
+  width: 23vw;
+  background-repeat: no-repeat;
+}
+
+.threes3 {
+  position: relative;
+  left: 5vw;
+  top: 0vh;
+
+  background-color: chocolate;
+  height: 40vh;
+  width: 23vw;
+}
+
+.threes3 img {
+  height: 40vh;
+  width: 23vw;
+  background-repeat: no-repeat;
+}
+
+.threes4 {
+  position: relative;
+  left: 30vw;
+  top: -52vh;
+
+  background-color: chocolate;
+  height: 40vh;
+  width: 23vw;
+}
+.threes4 img {
+  height: 40vh;
+  width: 23vw;
+  background-repeat: no-repeat;
+}
+
+.threea {
+  margin-top: 2rem;
+  margin-left: 45rem;
+  color: whitesmoke;
+  text-align: left;
+  font-size: 2rem;
+  font-family: "Jost", "Glacial Indifference", "Montserrat", "Open Sans",
+    sans-serif;
+}
+
+.threeb {
+  margin-top: -25rem;
+  margin-left: 68rem;
+  color: whitesmoke;
+  text-align: left;
+  font-size: 2rem;
+  font-family: "Jost", "Glacial Indifference", "Montserrat", "Open Sans",
+    sans-serif;
+}
+
+.threec {
+  margin-top: 2rem;
+  margin-left: 4rem;
+  color: whitesmoke;
+  text-align: left;
+  font-size: 2rem;
+  font-family: "Jost", "Glacial Indifference", "Montserrat", "Open Sans",
+    sans-serif;
+}
+
+.threed {
+  margin-top: -25rem;
+  margin-left: 27rem;
+  color: whitesmoke;
+  text-align: left;
+  font-size: 2rem;
+  font-family: "Jost", "Glacial Indifference", "Montserrat", "Open Sans",
+    sans-serif;
+}
+
+.threee {
+  margin-top: -10rem;
+  margin-left: 57rem;
+  color: whitesmoke;
+  text-align: left;
+  font-size: 3rem;
+  font-family: "Jost", "Glacial Indifference", "Montserrat", "Open Sans",
+    sans-serif;
+}
+
+.parallax3 {
+  /* The image used */
+  background-image: url("imagesandfolder/wp2495128.jpg");
+
+  /* Full height */
+  height: 40%;
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#four {
+  margin-top: -3rem;
+  height: fit-content;
+  width: auto;
+  background-color: black;
+}
+
+#four h1 {
+  color: whitesmoke;
+  text-align: center;
+  font-size: 4rem;
+  font-family: "Jost", "Glacial Indifference", "Montserrat", "Open Sans",
+    sans-serif;
+  padding-top: 2rem;
+}
+
+#four h2 {
+  color: whitesmoke;
+  text-align: center;
+  font-size: 1.5rem;
+  font-family: "Jost", "Glacial Indifference", "Montserrat", "Open Sans",
+    sans-serif;
+  margin-top: -30px;
+}
+
+.f {
+  display: flex;
+  justify-content: space-evenly;
+  flex-direction: row;
+  flex-wrap: wrap;
+  height: fit-content;
+  width: auto;
+  margin : 0 5vw;
+}
+
+#divToShow{
+  justify-content: space-evenly;
+  
+}
+.f1 , .f2, .f3, #f1_, #f2_, #f3_{
+  flex: 0;
+  padding: 1em;
+  height: 100vh;
+  width: auto;
+}
+/* #f1_ {
+  flex: 1;
+  padding: 5vh;
+  height: 100vh;
+  width: 33%;
+}
+#f2_ {
+  flex: 1;
+  padding: 5vh;
+  height: 100vh;
+  width: 33%;
+}
+#f3_ {
+  flex: 1;
+  padding: 5vh;
+  height: 100vh;
+  width: 33%;
+} */
+#divToShow{
+display: flex;
+width: 100%;
+}
+
+.topf1 {
+  height: 40vh;
+  display: flex;
+  position: relative;
+}
+.topf1:hover #overlay {
+  height: 100%;
+}
+.bottomf1:hover #overlay {
+  height: 100%;
+}
+.topf2:hover #overlay {
+  height: 100%;
+}
+.bottomf2:hover #overlay {
+  height: 100%;
+}
+.topf3:hover #overlay {
+  height: 100%;
+}
+.bottomf3:hover #overlay {
+  height: 100%;
+}
+.topf1 img {
+  height: 40vh;
+  width: 20vw;
+  background-repeat: no-repeat;
+}
+.bottomf1 {
+  position: relative;
+  margin-top: 10vh;
+  height: 40vh;
+  width: 20vw;
+}
+
+.bottomf1 img {
+  height: 40vh;
+  width: 20vw;
+  background-repeat: no-repeat;
+}
+/* .f2 {
+  flex: 1;
+  padding: 5vh;
+  height: 100vh;
+  width: 33%;
+} */
+.topf2 img {
+  height: 40vh;
+  width: 20vw;
+  background-repeat: no-repeat;
+}
+.topf2 {
+  position: relative;
+  height: 40vh;
+  width: 20vw;
+}
+.bottomf2 {
+  margin-top: 10vh;
+  height: 40vh;
+  width: 33%;
+  position: relative;
+}
+.bottomf2 img {
+  height: 40vh;
+  width: 20vw;
+  background-repeat: no-repeat;
+}
+/* .f3 {
+  padding: 5vh;
+  height: 100vh;
+  width: 33%;
+  flex: 1;
+} */
+
+.topf3 {
+  height: 40vh;
+  position: relative;
+  width: 20vw;
+}
+
+.topf3 img {
+  height: 40vh;
+  width: 20vw;
+  background-repeat: no-repeat;
+}
+.bottomf3 {
+  position: relative;
+  margin-top: 10vh;
+  height: 40vh;
+  width: 20vw;
+}
+.bottomf3 img {
+  height: 40vh;
+  width: 20vw;
+  background-repeat: no-repeat;
+}
+
+.four h3 {
+  color: whitesmoke;
+  text-align: center;
+  font-size: 1.5rem;
+  font-family: "Jost", "Glacial Indifference", "Montserrat", "Open Sans",
+    sans-serif;
+  margin-top: 3px;
+}
+
+.parallax4 {
+  /* The image used */
+  background-image: url("imagesandfolder/wp3770804.jpg");
+
+  /* Full height */
+  height: 40%;
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.five {
+  margin-top: -5rem;
+  color: whitesmoke;
+  height: auto;
+  width: auto;
+  background-color: black;
+  padding: 2em;
+}
+
+.five h1 {
+
+  color: whitesmoke;
+  text-align: left;
+  font-size: 4rem;
+  font-family: "Jost", "Glacial Indifference", "Montserrat", "Open Sans",
+    sans-serif;
+}
+
+.five h2 {
+  /* margin: 0 2em;  */
+  color: whitesmoke;
+  text-align: left;
+  font-size: 1.5rem;
+  font-family: "Jost", "Glacial Indifference", "Montserrat", "Open Sans",
+    sans-serif;
+}
+/*
+.five h3 {
+  margin-top: 2.5rem;
+  margin-left: 36rem;
+  color: whitesmoke;
+  text-align: left;
+  font-size: 4rem;
+  font-family: "Jost", "Glacial Indifference", "Montserrat", "Open Sans",
+    sans-serif;
+}
+
+.five h4 {
+  margin-top: -11rem;
+  margin-left: 53rem;
+  color: whitesmoke;
+  text-align: left;
+  font-size: 4rem;
+  font-family: "Jost", "Glacial Indifference", "Montserrat", "Open Sans",
+    sans-serif;
+}
+
+.five h5 {
+  margin-top: -9.5rem;
+  margin-left: 68rem;
+  color: whitesmoke;
+  text-align: left;
+  font-size: 4rem;
+  font-family: "Jost", "Glacial Indifference", "Montserrat", "Open Sans",
+    sans-serif;
+}
+
+.h3a {
+  margin-top: -4rem;
+  margin-left: 36rem;
+  color: whitesmoke;
+  text-align: left;
+  font-size: 2rem;
+  font-family: "Jost", "Glacial Indifference", "Montserrat", "Open Sans",
+    sans-serif;
+}
+
+.h3b {
+  margin-top: -2rem;
+  margin-left: 36rem;
+  color: whitesmoke;
+  text-align: left;
+  font-size: 2rem;
+  font-family: "Jost", "Glacial Indifference", "Montserrat", "Open Sans",
+    sans-serif;
+}
+
+.h4a {
+  margin-top: -5rem;
+  margin-left: 53rem;
+  color: whitesmoke;
+  text-align: left;
+  font-size: 2rem;
+  font-family: "Jost", "Glacial Indifference", "Montserrat", "Open Sans",
+    sans-serif;
+}
+
+.h5a {
+  margin-top: -6rem;
+  margin-left: 69rem;
+  color: whitesmoke;
+  text-align: left;
+  font-size: 2rem;
+  font-family: "Jost", "Glacial Indifference", "Montserrat", "Open Sans",
+    sans-serif;
+} */
+
+.parallax5 {
+  /* The image used */
+  background-image: url("imagesandfolder/wp3770816.jpg");
+
+  /* Full height */
+  height: 40%;
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.six {
+  height: 50vh;
+  width: auto;
+  background-color: black;
+  display: flex;
+}
+
+#sixa {
+  margin-top: 2rem;
+  padding: 2rem;
+  margin-left: 17rem;
+  height: 35vh;
+  width: 80vw;
+}
+
+#sixa h1 {
+  margin-top: 2rem;
+  color: whitesmoke;
+  text-align: center;
+  font-size: 4rem;
+  font-family: "Jost", "Glacial Indifference", "Montserrat", "Open Sans",
+    sans-serif;
+}
+
+#sixa h2 {
+  margin-top: 2rem;
+  color: whitesmoke;
+  text-align: center;
+  font-size: 2rem;
+  font-family: "Jost", "Glacial Indifference", "Montserrat", "Open Sans",
+    sans-serif;
+}
+
+#sixa h3 {
+  margin-top: 2rem;
+  color: whitesmoke;
+  text-align: center;
+  font-size: 2rem;
+  font-family: "Jost", "Glacial Indifference", "Montserrat", "Open Sans",
+    sans-serif;
+}
+
+#sixb {
+  margin-top: 2rem;
+  margin-left: 17rem;
+  padding: 2rem;
+  height: 35vh;
+  width: 80vw;
+  display: none;
+}
+
+#sixb h1 {
+  margin-top: 2rem;
+  color: whitesmoke;
+  text-align: center;
+  font-size: 4rem;
+  font-family: "Jost", "Glacial Indifference", "Montserrat", "Open Sans",
+    sans-serif;
+}
+
+#sixb h2 {
+  margin-top: 2rem;
+  color: whitesmoke;
+  text-align: center;
+  font-size: 2rem;
+  font-family: "Jost", "Glacial Indifference", "Montserrat", "Open Sans",
+    sans-serif;
+}
+
+#sixb h3 {
+  margin-top: 2rem;
+  color: whitesmoke;
+  text-align: center;
+  font-size: 2rem;
+  font-family: "Jost", "Glacial Indifference", "Montserrat", "Open Sans",
+    sans-serif;
+}
+
+#sixc {
+  margin-top: 2rem;
+  margin-left: 17rem;
+  padding: 2rem;
+  height: 35vh;
+  width: 80vw;
+  display: none;
+}
+
+#sixc h1 {
+  margin-top: 2rem;
+  color: whitesmoke;
+  text-align: center;
+  font-size: 4rem;
+  font-family: "Jost", "Glacial Indifference", "Montserrat", "Open Sans",
+    sans-serif;
+}
+
+#sixc h2 {
+  margin-top: 2rem;
+  color: whitesmoke;
+  text-align: center;
+  font-size: 2rem;
+  font-family: "Jost", "Glacial Indifference", "Montserrat", "Open Sans",
+    sans-serif;
+}
+
+#sixc h3 {
+  margin-top: 2rem;
+  color: whitesmoke;
+  text-align: center;
+  font-size: 2rem;
+  font-family: "Jost", "Glacial Indifference", "Montserrat", "Open Sans",
+    sans-serif;
+}
+
+.sixbtn1 {
+  position: relative;
+  left: -70rem;
+  top: 20vh;
+  height: 10vh;
+  width: 10vw;
+}
+
+.sixbtn2 {
+  position: relative;
+  left: -2rem;
+  top: 20vh;
+  height: 10vh;
+  width: 10vw;
+  background-color: black;
+}
+
+.parallax6 {
+  /* The image used */
+  background-image: url("imagesandfolder/wp3770802.jpg");
+
+  /* Full height */
+  height: 40%;
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}

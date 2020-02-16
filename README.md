@@ -1,2 +1,2 @@
-# bpit-corona-2020
-First website draft for corona.
+# coronafinalwebsite
+This is the final website

@@ -1,0 +1,554 @@
+<html>
+
+<head>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/2.0.2/anime.min.js"></script>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="m.css" />
+  <link rel="stylesheet" href="s.css" />
+  <link rel="stylesheet" href="custom.css">
+  <link rel="shortcut icon" href="imagesandfolder\head.ico" />
+  <title>CORONA'20 | BPIT</title>
+  <link rel="stylesheet" href="c.css">
+
+
+</head>
+
+<body>
+
+
+  <div class="loader-bg">
+    <div class="loader">
+      <p
+        style="font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; position:fixed;left:47.8vw;top:350px;color:orangered">
+        CORONA'20</p>
+
+    </div>
+
+
+  </div>
+
+
+
+
+  <div id='home_page'>
+    <video src="imagesandfolder\video bg web.mp4" class="vid-bg" autoplay loop muted></video>
+    <div class="nav-area">
+      <div class="logo"><img src=" imagesandfolder\coronalogo.jpeg"><span>&nbspCORONA'20</span></div>
+      <div class="hamburger" onclick="myslider()">
+        <div class="line-n"></div>
+        <div class="line-n"></div>
+        <div class="line-n"></div>
+      </div>
+
+    </div>
+  </div>
+  <div class="p-1">
+    <div class="banner-text">
+      <span>
+        <h2>CORONA'20</h2>
+      </span>
+      <h3>ANNUAL TECHNO CULTURAL FEST OF <br> BPIT</h3>
+      <h3>27<sup>th</sup> & 28<sup>th</sup> March </h3>
+      <button class="btn">GRAB YOUR PASSESS</button>
+
+    </div>
+  </div>
+
+
+
+
+
+  <!-- new menu bar -->
+
+
+  <div id="sidebar">
+
+    <div class="grab">
+      <div><img src="imagesandfolder\ticket.png" style="margin-left:18px"></div>
+      <div class="subo">GRAB THE PASSES</button></div>
+    </div>
+
+    <ul id="sidebarcontent">
+      <li style="margin-bottom: 2vh;" class="con" onclick="smoothScroll(document.querySelector('#home_page'))">HOME</li>
+      <li style="margin-bottom: 2vh;" class="con" onclick="smoothScroll(document.querySelector('#one'))">ABOUT</li>
+      <li style="margin-bottom: 2vh;" class="con" onclick="smoothScroll(document.querySelector('.two'))">PAST STARS</li>
+      <li style="margin-bottom: 2vh;" class="con" onclick="smoothScroll(document.querySelector('.three'))">GLIMPSES</li>
+      <li style="margin-bottom: 2vh;" class="con" onclick="smoothScroll(document.querySelector('#four'))">GALLARY</li>
+      <li style="margin-bottom: 2vh;" class="con" onclick="smoothScroll(document.querySelector('.five'))">PAST STATS
+      </li>
+      <li style="margin-bottom: 2vh;" class="con" onclick="smoothScroll(document.querySelector('.six'))">GOSSIPS</li>
+      <li style="margin-bottom: 2vh;" class="" onclick="smoothScroll(document.querySelector('.upperfooter'))">CONTACT US
+      </li>
+
+    </ul>
+
+    <div class="iconslast1">
+
+      <a href="*"> <img class="iconsy" src="imagesandfolder\a.png" style="margin-left:18px;height:35;width:35;"></a>
+      <a href="*"><img class="iconsy" src="imagesandfolder\b.png" style="margin-left:18px;height:35;width:35;"></a>
+      <a href="*"> <img class="iconsy" src="imagesandfolder\c.png" style="margin-left:18px;height:35;width:35;"></a>
+      <a href="*"> <img class="iconsy" src="imagesandfolder\d.png" style="margin-left:18px;height:35;width:35;"></a>
+
+    </div>
+
+
+
+  </div>
+
+  <!-- new menu ends  -->
+
+
+  <!-- 
+  <label>
+      <input type="checkbox" > 
+          <span class="menu" onclick="myfunction()">
+              <span class="hamburger"></span>
+          </span> 
+
+          
+          <ul>
+              <img src="imagesandfolder\ticket.png" class="ticket"><li> <button type="button" id="button">GRAB YOUR PASSES</button></li>
+              <br>
+              <li><a href="#" onclick="smoothScroll(document.querySelector('#home_page'))">HOME</a></li>
+              <li><a href="#" onclick="smoothScroll(document.querySelector('#one'))">ABOUT US</a></li>
+              <li><a href="#" onclick="smoothScroll(document.querySelector('.two'))">HIGHLIGHTS</a></li>
+              <li><a href="#" onclick="smoothScroll(document.querySelector('.three'))">PAST STARS</a></li>
+              <li><a href="#" onclick="smoothScroll(document.querySelector('.four'))">FORMAL EVENTS</a></li>
+              <li><a href="#" onclick="smoothScroll(document.querySelector('.five'))">PAST STATS</a></li>
+              <li><a href="#" onclick="smoothScroll(document.querySelector('.six'))">GOSSIPS</a></li>
+          
+          </ul>
+
+          <span id="icons">
+  
+              <a href="*"><img class="iconsubclass" src="imagesandfolder\a.png" ></a>
+              <a href="*"><img class="iconsubclass" src="imagesandfolder\b.png" ></a>
+              <a href="*"><img class="iconsubclass" src="imagesandfolder\c.png" ></a>
+              <a href="*"><img class="iconsubclass" src="imagesandfolder\d.png" ></a>
+              
+          </span> -->
+
+  <!-- </label> -->
+  <!-- countdown -->
+  <div id="clockdiv" style="position: relative;left:-8px;top:200px" onclick="myfunction()">
+    <div>
+      <span class="days" id="day"></span>
+      <div class="smalltext">Days</div>
+    </div>
+    <div>
+      <span class="hours" id="hour"></span>
+      <div class="smalltext">Hours</div>
+    </div>
+    <div>
+      <span class="minutes" id="minute"></span>
+      <div class="smalltext">Minutes</div>
+    </div>
+    <div>
+      <span class="seconds" id="second"></span>
+      <div class="smalltext">Seconds</div>
+    </div>
+
+  </div>
+  <!-- countdownends -->
+
+
+  <!-- top area ends about us area starts-->
+
+  <div id="one">
+    <h1 class="about_ani">ABOUT CORONA</h1>
+    <p>We are glad to inform you that Bhagwan Parshuram Institute of Technology is organizing their annual
+      cultural-techno management festival "CORONA'19" on 28th-29th March 2019 with the dream of spreading its wings and
+      expanding its reach beyond previously unseen levels of events.
+      Over the years the festival has attracted students from B.tech, BBA, BCA, MBA and various other streams to
+      showcase their creative skills and compete amongst the best from the educational institutes of Delhi and NCR
+      Region.
+      CORONA is a festival comprising of a big chain of events under following categories:-
+      CULTURAL EVENTS
+      Fashion Show : It is a grandeur event of different colleges and fashion institutes to showcase the upcoming line
+      of fashion clothing and debut every season.
+      Dance : Dance is the another name of soul satisfaction. It gives a beautiful and glorious platform to the human
+      being to portray feelings in the form of expressions. Further categories of dance events are :
+      Solo Dance
+      Group Dance
+      Street Dance
+      Solo Singing : The Rhythmic act of producing musical sounds with the voice and augments tonality.
+      Battle of Bands : Vocalists betting out the words, Drummers with their Grooves & Rhythms, Guitarists taking the
+      convenient option either melting your face or touching your souls with their solos, BAND competing amongst
+      themselves for supremacy.
+      Ms. Diva : An event to appreciate and celebrate few very talented girls and stimulate all their inner and outer
+      beauty.
+      Mr & Ms. CORONA : A beauty pageant event for boys and girls. It is a crowd boost event with the participation of
+      all excelled students.
+      Kavi Sammelan : A gathering of poets reciting the poetry to each other and have general discussions on literary
+      issues.
+      Street Play : Different college teams narrate express fully on general topics.
+      TECHNICAL EVENTS
+      LFR
+      LAN Gaming
+      Robo WAR
+      Robo Race
+      Techno Treasure hunt
+      MANAGEMENT EVENTS
+      B-Plan
+      AD-Mad
+      Quiz
+      JAM
+      Big Idea
+      Market shetra
+      and several more events.
+
+    </p>
+  </div>
+  <div class="parallax1"></div>
+  <div class="two">
+    <h1 class="past_ani">PAST STARS</h1>
+    <h2>Here are some of the amazing artists we had over the years</h2>
+    <div class="star-tiles">
+      <div class="flip-card">
+        <div class="flip-card-inner">
+          <div class="flip-card-front">
+            <img src="imagesandfolder/OLLY.jpeg" alt="Avatar" style="width:300px;height:300px;">
+            <div class="flip-card-caption">
+              <h1> OLLY ESSE</h1>
+              <h2> Dj In The House</h2>
+              <h3> EDM NIGHT</h3>
+            </div>
+          </div>
+          <div class="flip-card-back">
+            <video src="imagesandfolder/00030.mp4" controls="controls" autoplay loop muted
+              style="width:300px;height:300px;"></video>
+          </div>
+        </div>
+      </div>
+
+      <div class="flip-card">
+        <div class="flip-card-inner">
+          <div class="flip-card-front">
+            <img src="imagesandfolder/SUKHE.jpeg" alt="Avatar" style="width:300px;height:300px;">
+            <div class="flip-card-caption">
+              <h1>SUKH-E</h1>
+              <h2>The musical doctors </h2>
+              <h3>PUNJABI NIGHT</h3>
+            </div>
+          </div>
+          <div class="flip-card-back">
+            <video src="imagesandfolder/sukhe.mp4" controls="controls" autoplay loop muted
+              style="width:300px;height:300px;"></video>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="parallax2"></div>
+  <div class="three">
+    <h1 class="glimpses_ani">SOME GLIMPSES FROM PAST</h1>
+    <div class="root-gl">
+      <div class="r1">
+        <div class="elem">
+          <img src="imagesandfolder/d.jpeg" alt="man" />
+          <p>
+            Dance Events
+          </p>
+        </div>
+        <div class="elem">
+          <img src="imagesandfolder/fashionshow.jpeg" alt="man" />
+          <p>
+            Fashion Show
+          </p>
+        </div>
+      </div>
+      <div class="r2">
+        <div class="elem">
+          <img src="imagesandfolder/mrmrs.jpeg" alt="man" />
+          <p>
+            Mr. & Mrs. Corona 
+          </p>
+        </div>
+        <div class="elem">
+          <img src="imagesandfolder/streetplay.jpeg" alt="man" />
+          <p>
+            Street Play
+          </p>
+        </div>
+      </div>
+    </div>
+
+  </div>
+  <div class="parallax3"></div>
+  <div id="four">
+    <h1 class="highlights_ani">HIGHLIGHTS</h1>
+    <h2>Here's a glimpse at some of the Major Highlights of Corona!</h2>
+
+    <div class="f">
+      <div class="f1">
+        <div class="topf1">
+          <div id="overlay"></div>
+          <img src="imagesandfolder/img1.jpeg" />
+
+        </div>
+        <div class="bottomf1">
+          <div id="overlay"></div>
+          <img src="imagesandfolder/img7.jpeg" />
+
+        </div>
+      </div>
+      <div class="f2">
+        <div class="topf2">
+          <div id="overlay"></div>
+          <img src="imagesandfolder/img11.jpeg" />
+
+        </div>
+        <div class="bottomf2">
+          <div id="overlay"></div>
+          <img src="imagesandfolder/img8.jpeg" />
+
+        </div>
+      </div>
+      <div class="f3">
+        <div class="topf3">
+          <div id="overlay"></div>
+          <img src="imagesandfolder/img5.jpeg" />
+
+        </div>
+        <div class="bottomf3">
+          <div id="overlay"></div>
+          <img src="imagesandfolder/img6.jpeg" />
+
+        </div>
+        <button onclick="SeeMore()" id="btnSeeMore_1">Show More</button>
+      </div>
+
+      <h3 id="dots">...</h3>
+      <!-- hidden Images  -->
+      <div id="divToShow">
+        <div id="f1_" style="display: none">
+          <div class="topf1">
+            <div id="overlay"></div>
+            <img src="imagesandfolder/img1.jpeg" />
+
+          </div>
+          <div class="bottomf1">
+            <div id="overlay"></div>
+            <img src="imagesandfolder/img7.jpeg" />
+
+          </div>
+        </div>
+        <div id="f2_" style="display: none">
+          <div class="topf2">
+            <div id="overlay"></div>
+            <img src="imagesandfolder/img11.jpeg" />
+
+          </div>
+          <div class="bottomf2">
+            <div id="overlay"></div>
+            <img src="imagesandfolder/img8.jpeg" />
+
+          </div>
+        </div>
+        <div id="f3_" style="display: none">
+          <div class="topf3">
+            <div id="overlay"></div>
+            <img src="imagesandfolder/img5.jpeg" />
+
+          </div>
+          <div class="bottomf3">
+            <div id="overlay"></div>
+            <img src="imagesandfolder/img6.jpeg" />
+          </div>
+          <button onclick="SeeMore()" style="display: none;" id="btnSeeMore_2">Show Less</button>
+        </div>
+        <!-- </div> -->
+      </div>
+    </div>
+  </div>
+  <div class="parallax4"></div>
+  <div class="five">
+    <h1 class="stats_ani">PAST STATS</h1>
+    <h2>Here are some of the statistics from CORONA 2019:</h2>
+    <div class="past-elements">
+      <div class="past-el">
+        <h3 class="statsNo1_ani">300+</h3>
+        <p>Participating Colleges</p>
+      </div>
+      <div class="past-el">
+        <h3 class="statsNo2_ani">50+</h4>
+        <p>Events</p>
+      </div>
+      <div class="past-el">
+        <h3 class="statsNo3_ani">125000+</h5>
+        <p>Footfall</p>
+      </div>
+    </div>
+  </div>
+  <div class="parallax5"></div>
+  <div class="six">
+    <div id="sixa">
+      <h1 class="mightSay_ani">WHAT PEOPLE SAY ?</h1>
+      <h2>Always a pleasure to visit Corona !</h2>
+      <h3>-Mr Aman Kumar</h3>
+    </div>
+    <div id="sixb">
+      <h1>WHAT PEOPLE SAY ?</h1>
+      <h2>Corona is a fun place to be. Faculty and Students both are just awesome</h2>
+      <h3>-Mr Shivam Goyal</h3>
+    </div>
+    <div id="sixc">
+      <h1>WHAT PEOPLE SAY ?</h1>
+      <h2>Thanks for having me here.Looking forward to next year</h2>
+      <h3>-Mr Vinay Sharma</h3>
+    </div>
+    <img src="imagesandfolder/if3.png" class="sixbtn1" onclick="myfunction1()" />
+    <img src="imagesandfolder/if2.png" class="sixbtn2" onclick="myfunction2()" />
+
+  </div>
+  <div class="parallax6"></div>
+
+
+  <!-- footer of website -->
+
+
+
+  <!-- <div style="height:500px">
+
+  </div> -->
+  <div class="upperfooter">
+    <img src="imagesandfolder\send.PNG" id="hep">
+    <span id="contact"><u>CONTACT US</u></span>
+    <br>
+    <span id="contact1">Want to associate with us or have questions about our fest?<br> Feel free to talk to us, we will
+      be happy to answer you. Here is how to reach us:</span>
+
+
+    <div class="maincontent">
+
+      <div id="connect">
+        <h1><u>CONTACT</u></h1>
+        <h3>Call:<br>
+          HARSH: +91 9560462128 <br>
+          PARTH: +91 9811039021<br>
+          UNKNOWN: +91 9711601212<br>
+          EMAIL ID:<br>
+          Corona@bpitindia.com</h3>
+
+      </div>
+
+
+      <div id="sponser">
+        <h1><u>SPONSERS</u></h1>
+
+        <h3>
+          <li>INDIAN BANK</li>
+          <li>POKER SAINT</li>
+          <li>HINDUSTAN PETROLEUM</li>
+          <li>GOOGLE</li>
+          <li>FACEBOOK</li>
+        </h3>
+
+
+      </div>
+      <div id="address">
+        <h1><u>ADDRESS</u></h1>
+        <h3>BHAGWAN PARSHURAM INSTITUTE<br> OF TECHNOLOGY <br>PSP-4, Dr KN KATJU MARG, SECTOR 17, ROHINI, NEW DELHI,<br>
+          DELHI 110089.</h3>
+
+      </div>
+
+
+
+    </div>
+
+
+
+
+
+
+
+  </div>
+  <div class="footer">
+
+    <div class="heading">
+      <a href="*"><img class="iconsubclass" src="imagesandfolder\a.png"></a>
+      <a href="*"><img class="iconsubclass" src="imagesandfolder\b.png"></a>
+      <a href="*"><img class="iconsubclass" src="imagesandfolder\c.png"></a>
+      <a href="*"><img class="iconsubclass" src="imagesandfolder\d.png"></a>
+    </div>
+    <div class="footcontent">
+      EDITED IN-HOUSE BY
+      <br>
+      TECH TEAM
+      <br>
+      BHAGWAN PARSHURAM INSTITUTE OF TECHNOLOGY
+    </div>
+
+
+
+
+  </div>
+  <!-- footer ends -->
+
+
+  <script src="javascript.js">
+  </script>
+
+  <script>
+    var i = 0;
+    var j = 0;
+    function myfunction1() {
+      if (i == 0) {
+        document.getElementById('sixa').style.display = "block";
+        document.getElementById('sixb').style.display = "none";
+        document.getElementById('sixc').style.display = "none";
+        i = 1;
+      }
+      else if (i == 1) {
+        document.getElementById('sixa').style.display = "none";
+        document.getElementById('sixb').style.display = "block";
+        document.getElementById('sixc').style.display = "none";
+        i = 2;
+      }
+      else if (i == 2) {
+        document.getElementById('sixa').style.display = "none";
+        document.getElementById('sixb').style.display = "none";
+        document.getElementById('sixc').style.display = "block";
+        i = 0;
+      }
+
+
+
+    }
+
+    function myfunction2() {
+      if (j == 0) {
+        document.getElementById('sixa').style.display = "block";
+        document.getElementById('sixb').style.display = "none";
+        document.getElementById('sixc').style.display = "none";
+        j = 2;
+      }
+      else if (j == 1) {
+        document.getElementById('sixa').style.display = "none";
+        document.getElementById('sixb').style.display = "block";
+        document.getElementById('sixc').style.display = "none";
+        j = 0;
+      }
+      else if (j == 2) {
+        document.getElementById('sixa').style.display = "none";
+        document.getElementById('sixb').style.display = "none";
+        document.getElementById('sixc').style.display = "block";
+        j = 1;
+      }
+    }
+
+  </script>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js">
+  </script>
+  <script>
+    setTimeout(function () {
+      $('.loader-bg').fadeToggle();
+    }, 1200);
+  </script>
+  <script src="heading_js.js"></script>
+
+</body>
+
+</html>
