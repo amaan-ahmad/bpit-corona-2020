@@ -233,7 +233,9 @@ html {
   .past-el p{
     align-items: flex-start;
   }
-  
+  .maincontent{
+    flex-direction: column;
+  }
   
 }
 /* -------------- */
