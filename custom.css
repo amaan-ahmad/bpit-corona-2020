@@ -172,7 +172,18 @@ html {
 .past-el h3{
   margin: 0;
 }
+.gossip-head{
+  background-color: black;
+  color: whitesmoke;
+  width: auto;
+  height: fit-content;
+  align-content: center;
+} 
+.gossip-head h1{
+  padding: 1em 0; 
+  margin: 0;
 
+}
 @media screen and (max-width: 700px) {
   .root-gl .r1 {
     align-self: center !important;
