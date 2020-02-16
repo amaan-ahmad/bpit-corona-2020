@@ -155,3 +155,51 @@ function myfunction()
 
 }
 //ends
+
+
+var i = 0;
+var j = 0;
+function myfunction1() {
+  if (i == 0) {
+    document.getElementById('sixa').style.display = "block";
+    document.getElementById('sixb').style.display = "none";
+    document.getElementById('sixc').style.display = "none";
+    i = 1;
+  }
+  else if (i == 1) {
+    document.getElementById('sixa').style.display = "none";
+    document.getElementById('sixb').style.display = "block";
+    document.getElementById('sixc').style.display = "none";
+    i = 2;
+  }
+  else if (i == 2) {
+    document.getElementById('sixa').style.display = "none";
+    document.getElementById('sixb').style.display = "none";
+    document.getElementById('sixc').style.display = "block";
+    i = 0;
+  }
+
+
+
+}
+
+function myfunction2() {
+  if (j == 0) {
+    document.getElementById('sixa').style.display = "block";
+    document.getElementById('sixb').style.display = "none";
+    document.getElementById('sixc').style.display = "none";
+    j = 2;
+  }
+  else if (j == 1) {
+    document.getElementById('sixa').style.display = "none";
+    document.getElementById('sixb').style.display = "block";
+    document.getElementById('sixc').style.display = "none";
+    j = 0;
+  }
+  else if (j == 2) {
+    document.getElementById('sixa').style.display = "none";
+    document.getElementById('sixb').style.display = "none";
+    document.getElementById('sixc').style.display = "block";
+    j = 1;
+  }
+}
