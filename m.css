@@ -637,24 +637,14 @@ width: 100%;
   background-color: black;
   display: flex;
   color : whitesmoke;
+  flex-direction: row;
 }
 
-#sixa {
-  margin-top: 2rem;
-  padding: 2rem;
-  margin-left: 17rem;
-  height: 35vh;
+#sixa, #sixb, #sixc{
+  height: fit-content;
   width: 80vw;
 }
 
-/* #sixa h1 {
-  margin-top: 2rem;
-  color: whitesmoke;
-  text-align: center;
-  font-size: 4rem;
-  font-family: "Jost", "Glacial Indifference", "Montserrat", "Open Sans",
-    sans-serif;
-} */
 
 #sixa h2 {
   margin-top: 2rem;
@@ -675,11 +665,7 @@ width: 100%;
 }
 
 #sixb {
-  margin-top: 2rem;
-  margin-left: 17rem;
-  padding: 2rem;
-  height: 35vh;
-  width: 80vw;
+
   display: none;
 }
 
@@ -711,11 +697,7 @@ width: 100%;
 }
 
 #sixc {
-  margin-top: 2rem;
-  margin-left: 17rem;
-  padding: 2rem;
-  height: 35vh;
-  width: 80vw;
+
   display: none;
 }
 
@@ -747,17 +729,12 @@ width: 100%;
 }
 
 .sixbtn1 {
-  position: relative;
-  left: -70rem;
-  top: 20vh;
+
   height: 10vh;
   width: 10vw;
 }
 
 .sixbtn2 {
-  position: relative;
-  left: -2rem;
-  top: 20vh;
   height: 10vh;
   width: 10vw;
   background-color: black;
