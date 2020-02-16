@@ -377,24 +377,7 @@
   height: 100vh;
   width: auto;
 }
-/* #f1_ {
-  flex: 1;
-  padding: 5vh;
-  height: 100vh;
-  width: 33%;
-}
-#f2_ {
-  flex: 1;
-  padding: 5vh;
-  height: 100vh;
-  width: 33%;
-}
-#f3_ {
-  flex: 1;
-  padding: 5vh;
-  height: 100vh;
-  width: 33%;
-} */
+
 #divToShow{
 display: flex;
 width: 100%;
@@ -440,12 +423,7 @@ width: 100%;
   width: 20vw;
   background-repeat: no-repeat;
 }
-/* .f2 {
-  flex: 1;
-  padding: 5vh;
-  height: 100vh;
-  width: 33%;
-} */
+
 .topf2 img {
   height: 40vh;
   width: 20vw;
@@ -467,12 +445,7 @@ width: 100%;
   width: 20vw;
   background-repeat: no-repeat;
 }
-/* .f3 {
-  padding: 5vh;
-  height: 100vh;
-  width: 33%;
-  flex: 1;
-} */
+
 
 .topf3 {
   height: 40vh;
@@ -539,83 +512,13 @@ width: 100%;
 }
 
 .five h2 {
-  /* margin: 0 2em;  */
   color: whitesmoke;
   text-align: left;
   font-size: 1.5rem;
   font-family: "Jost", "Glacial Indifference", "Montserrat", "Open Sans",
     sans-serif;
 }
-/*
-.five h3 {
-  margin-top: 2.5rem;
-  margin-left: 36rem;
-  color: whitesmoke;
-  text-align: left;
-  font-size: 4rem;
-  font-family: "Jost", "Glacial Indifference", "Montserrat", "Open Sans",
-    sans-serif;
-}
 
-.five h4 {
-  margin-top: -11rem;
-  margin-left: 53rem;
-  color: whitesmoke;
-  text-align: left;
-  font-size: 4rem;
-  font-family: "Jost", "Glacial Indifference", "Montserrat", "Open Sans",
-    sans-serif;
-}
-
-.five h5 {
-  margin-top: -9.5rem;
-  margin-left: 68rem;
-  color: whitesmoke;
-  text-align: left;
-  font-size: 4rem;
-  font-family: "Jost", "Glacial Indifference", "Montserrat", "Open Sans",
-    sans-serif;
-}
-
-.h3a {
-  margin-top: -4rem;
-  margin-left: 36rem;
-  color: whitesmoke;
-  text-align: left;
-  font-size: 2rem;
-  font-family: "Jost", "Glacial Indifference", "Montserrat", "Open Sans",
-    sans-serif;
-}
-
-.h3b {
-  margin-top: -2rem;
-  margin-left: 36rem;
-  color: whitesmoke;
-  text-align: left;
-  font-size: 2rem;
-  font-family: "Jost", "Glacial Indifference", "Montserrat", "Open Sans",
-    sans-serif;
-}
-
-.h4a {
-  margin-top: -5rem;
-  margin-left: 53rem;
-  color: whitesmoke;
-  text-align: left;
-  font-size: 2rem;
-  font-family: "Jost", "Glacial Indifference", "Montserrat", "Open Sans",
-    sans-serif;
-}
-
-.h5a {
-  margin-top: -6rem;
-  margin-left: 69rem;
-  color: whitesmoke;
-  text-align: left;
-  font-size: 2rem;
-  font-family: "Jost", "Glacial Indifference", "Montserrat", "Open Sans",
-    sans-serif;
-} */
 
 .parallax5 {
   /* The image used */
