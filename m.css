@@ -646,7 +646,7 @@ width: 100%;
 }
 
 
-#sixa h2 {
+#sixa h2, #sixa h3, #sixb h2, #sixb h3, #sixc h2, #sixc h3{
   margin-top: 2rem;
   color: whitesmoke;
   text-align: center;
@@ -655,86 +655,17 @@ width: 100%;
     sans-serif;
 }
 
-#sixa h3 {
-  margin-top: 2rem;
-  color: whitesmoke;
-  text-align: center;
-  font-size: 2rem;
-  font-family: "Jost", "Glacial Indifference", "Montserrat", "Open Sans",
-    sans-serif;
-}
 
 #sixb {
-
   display: none;
 }
 
-#sixb h1 {
-  margin-top: 2rem;
-  color: whitesmoke;
-  text-align: center;
-  font-size: 4rem;
-  font-family: "Jost", "Glacial Indifference", "Montserrat", "Open Sans",
-    sans-serif;
-}
-
-#sixb h2 {
-  margin-top: 2rem;
-  color: whitesmoke;
-  text-align: center;
-  font-size: 2rem;
-  font-family: "Jost", "Glacial Indifference", "Montserrat", "Open Sans",
-    sans-serif;
-}
-
-#sixb h3 {
-  margin-top: 2rem;
-  color: whitesmoke;
-  text-align: center;
-  font-size: 2rem;
-  font-family: "Jost", "Glacial Indifference", "Montserrat", "Open Sans",
-    sans-serif;
-}
 
 #sixc {
-
   display: none;
 }
 
-#sixc h1 {
-  margin-top: 2rem;
-  color: whitesmoke;
-  text-align: center;
-  font-size: 4rem;
-  font-family: "Jost", "Glacial Indifference", "Montserrat", "Open Sans",
-    sans-serif;
-}
-
-#sixc h2 {
-  margin-top: 2rem;
-  color: whitesmoke;
-  text-align: center;
-  font-size: 2rem;
-  font-family: "Jost", "Glacial Indifference", "Montserrat", "Open Sans",
-    sans-serif;
-}
-
-#sixc h3 {
-  margin-top: 2rem;
-  color: whitesmoke;
-  text-align: center;
-  font-size: 2rem;
-  font-family: "Jost", "Glacial Indifference", "Montserrat", "Open Sans",
-    sans-serif;
-}
-
-.sixbtn1 {
-
-  height: 10vh;
-  width: 10vw;
-}
-
-.sixbtn2 {
+.sixbtn2 , .sixbtn1{
   height: 10vh;
   width: 10vw;
   background-color: black;
