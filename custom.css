@@ -6,11 +6,12 @@ html {
 .p-1 {
   display: flex;
   justify-content: center;
-  align-content: center;
-  z-index: 12;
+  align-items: center;
+  /* z-index: 12; */
   flex-direction: column;
   height: 100vh;
-  width: 100vw;
+  width: auto;
+  background-color: rgba(0,0,0,0.5);
 }
 
 @media screen and (max-width: 700px) {
@@ -20,8 +21,6 @@ html {
   }
   .star-tiles {
     flex-direction: column !important;
-    /* margin-top; */
-    /* overflow: hidden; */
   }
   .flip-card-front {
     flex-direction: column-reverse !important;
