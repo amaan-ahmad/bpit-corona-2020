@@ -127,14 +127,31 @@ function newslider()
 {
     document.getElementById("hamburger").classList.toggle('active');
 }
+let w = 0;
 
 function myslider()
 {
     document.getElementById("sidebar").classList.toggle('active');
     document.getElementById("sidebar").classList.toggle('display-con');
     document.getElementById("sticky").classList.toggle('active');
+    // if(!document.getElementById("sidebar").classList.contains('active')){
+    //   while(w!=0){
+    //     setTimeout(function(){
+    //       w--;
+    //       document.getElementById("sidebar").style.width -= w;
+    //     }, 50); 
+    //   }
+    // }else{
+    //   while(w!=100){
+    //     setTimeout(function(){
+    //       w++;
+    //       document.getElementById("sidebar").style.width += w;
+    //     }, 50); 
+    //   }
+    // }
 }
 
+var sidemenu = document.querySelectorAll('#sidebar');
 const hamburger = document.querySelectorAll('.hamburger');
 const line = document.querySelectorAll('.line-n');
 hamburger[0].addEventListener("click", function(){
@@ -143,7 +160,6 @@ hamburger[0].addEventListener("click", function(){
     line.forEach(line => {
       line.classList.toggle('clicked');
     });
-
   });
 
 

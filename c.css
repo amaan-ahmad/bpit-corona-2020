@@ -190,9 +190,10 @@ header {
   min-height: 100%;
 }
 .nav-area {
-  background-color: transparent;
+  background-color: black;
   height: auto;
   width: 100%;
+  /* position: fixed; */
 }
 .logo {
   height: auto;

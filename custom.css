@@ -13,7 +13,16 @@ html {
   width: 100vw;
   background-color: rgba(0,0,0,0.5);
 }
-
+.sticky-register{
+  bottom: 50%;
+  left:0;
+  position: fixed;
+  z-index: 1000;
+  padding: 1em;
+  border-style: solid;
+  background-color: transparent;
+  color :white;
+}
 @media screen and (max-width: 1000px) {
   .two {
     align-items: center;

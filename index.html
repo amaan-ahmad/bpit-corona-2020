@@ -13,7 +13,9 @@
 
 <body>
 
-
+  <button class="sticky-register">
+    REGISTER
+  </button>
   <div class="loader-bg">
     <div class="loader">
       <p
@@ -29,7 +31,7 @@
   <div id='home_page'>
     <video src="imagesandfolder\video bg web.mp4" class="vid-bg" autoplay loop muted></video>
     <div class="nav-area">
-      <div class="logo"><img src=" imagesandfolder\coronalogo.jpeg"><span>&nbspCORONA'20</span></div>
+      <div class="logo"><img src="imagesandfolder\coronalogo.jpeg"><span>&nbspCORONA'20</span></div>
       <div class="hamburger" onclick="myslider()">
         <div class="line-n"></div>
         <div class="line-n"></div>
@@ -47,27 +49,27 @@
       <h3>27<sup>th</sup> & 28<sup>th</sup> March </h3>
       <button class="btn">GRAB YOUR PASSESS</button>
     </div>
-      <!-- countdown -->
-  <div id="clockdiv" onclick="myfunction()">
-    <div>
-      <span class="days" id="day"></span>
-      <div class="smalltext">Days</div>
-    </div>
-    <div>
-      <span class="hours" id="hour"></span>
-      <div class="smalltext">Hours</div>
-    </div>
-    <div>
-      <span class="minutes" id="minute"></span>
-      <div class="smalltext">Minutes</div>
-    </div>
-    <div>
-      <span class="seconds" id="second"></span>
-      <div class="smalltext">Seconds</div>
-    </div>
+    <!-- countdown -->
+    <div id="clockdiv" onclick="myfunction()">
+      <div>
+        <span class="days" id="day"></span>
+        <div class="smalltext">Days</div>
+      </div>
+      <div>
+        <span class="hours" id="hour"></span>
+        <div class="smalltext">Hours</div>
+      </div>
+      <div>
+        <span class="minutes" id="minute"></span>
+        <div class="smalltext">Minutes</div>
+      </div>
+      <div>
+        <span class="seconds" id="second"></span>
+        <div class="smalltext">Seconds</div>
+      </div>
 
-  </div>
-  <!-- countdownends -->
+    </div>
+    <!-- countdownends -->
   </div>
 
 
@@ -260,7 +262,7 @@
         <div class="elem">
           <img src="imagesandfolder/mrmrs.jpeg" alt="man" />
           <p>
-            Mr. & Mrs. Corona 
+            Mr. & Mrs. Corona
           </p>
         </div>
         <div class="elem">
@@ -371,11 +373,11 @@
       </div>
       <div class="past-el">
         <h3 class="statsNo2_ani">50+</h4>
-        <p>Events</p>
+          <p>Events</p>
       </div>
       <div class="past-el">
         <h3 class="statsNo3_ani">125000+</h5>
-        <p>Footfall</p>
+          <p>Footfall</p>
       </div>
     </div>
   </div>
@@ -449,42 +451,44 @@
 
 
     </div> -->
-    <div class="upperfooter">
+  <div class="upperfooter">
     <span id="contact">CONTACT US</span>
     <p id="contact1">Want to associate with us or have questions about our fest?<br> Feel free to talk to us, we will
       be happy to answer you. Here is how to reach us:</span>
 
-    <div class="maincontent">
-      <div id="connect">
-        <h1>CONTACT</h1>
-        <h3>Call:<br>
-          HARSH: +91 9560462128 <br>
-          PARTH: +91 9811039021<br>
-          UNKNOWN: +91 9711601212<br><br>
-          EMAIL ID:
-          Corona@bpitindia.com</h3>
+      <div class="maincontent">
+        <div id="connect">
+          <h1>CONTACT</h1>
+          <h3>Call:<br>
+            HARSH: +91 9560462128 <br>
+            PARTH: +91 9811039021<br>
+            UNKNOWN: +91 9711601212<br><br>
+            EMAIL ID:
+            Corona@bpitindia.com</h3>
+        </div>
+
+
+        <div id="sponser">
+          <h1>SPONSORS</h1>
+          <h3>
+            <li>INDIAN BANK</li>
+            <li>POKER SAINT</li>
+            <li>HINDUSTAN PETROLEUM</li>
+            <li>GOOGLE</li>
+            <li>FACEBOOK</li>
+          </h3>
+        </div>
+
+        <div id="address">
+          <h1>ADDRESS</h1>
+          <h3>BHAGWAN PARSHURAM INSTITUTE<br> OF TECHNOLOGY <br>PSP-4, Dr KN KATJU MARG, SECTOR 17, ROHINI, NEW
+            DELHI,<br>
+            DELHI 110089.</h3>
+        </div>
       </div>
 
-
-      <div id="sponser">
-        <h1>SPONSORS</h1>
-        <h3>
-          <li>INDIAN BANK</li>
-          <li>POKER SAINT</li>
-          <li>HINDUSTAN PETROLEUM</li>
-          <li>GOOGLE</li>
-          <li>FACEBOOK</li>
-        </h3>
-      </div>
-
-      <div id="address">
-        <h1>ADDRESS</h1>
-        <h3>BHAGWAN PARSHURAM INSTITUTE<br> OF TECHNOLOGY <br>PSP-4, Dr KN KATJU MARG, SECTOR 17, ROHINI, NEW DELHI,<br>
-          DELHI 110089.</h3>
-      </div>
-    </div>
-
-  </div><!--upper footer ends-->
+  </div>
+  <!--upper footer ends-->
   <div class="footer">
 
     <div class="heading">
@@ -505,8 +509,21 @@
   <!-- footer ends -->
 
 
-  <script src="javascript.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script type="text/javascript" lang="javascript">
+    document.querySelectorAll('.hamburger')[0].addEventListener("click", function () {
+      if (!document.querySelectorAll('.hamburger')[0].classList.contains("active")) {
+        $("#sidebar").animate({
+          left: "0",
+        }, 500);
+      } else {
+        $("#sidebar").animate({
+          left: "100%",
+        }, 500);
+      }
+    });
+  </script>
+  <script src="javascript.js"></script>
   <script>
     setTimeout(function () {
       $('.loader-bg').fadeToggle();
