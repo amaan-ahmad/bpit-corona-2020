@@ -14,7 +14,7 @@ html {
   background-color: rgba(0,0,0,0.5);
 }
 
-@media screen and (max-width: 700px) {
+@media screen and (max-width: 1000px) {
   .two {
     align-items: center;
     justify-content: center;
@@ -150,7 +150,7 @@ html {
 }
 
 .elem p{
-  font-size : 1em;
+  font-size : 1.2em;
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
@@ -242,9 +242,15 @@ html {
   .banner-text h3{
     font-size: 0.7em;
   }
-
+  #clockdiv{
+    font-size: 1.2em;
+  }
 }
 /* -------------- */
+
+
+
+
 .f > div > div , #divToShow > div > div{
   height : auto;
   width : auto;
