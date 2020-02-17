@@ -10,7 +10,7 @@ html {
   /* z-index: 12; */
   flex-direction: column;
   height: 100vh;
-  width: auto;
+  width: 100vw;
   background-color: rgba(0,0,0,0.5);
 }
 

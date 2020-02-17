@@ -235,7 +235,7 @@ header {
     left: 35%;
     letter-spacing: 3px;
 } */
-.banner-text h2 {
+/* .banner-text h2 {
   color: #fff;
   font-size: 80px;
   margin: 0;
@@ -252,13 +252,13 @@ header {
 .btn {
   display: inline-block;
   margin-top: 10%;
-  margin-left: 0%;
   background: transparent;
   border: 0;
   font-size: 20px;
   text-transform: uppercase;
   border: 3px solid #fff;
-  padding: 10px 25px;
+  padding: 1em;
+  width: fit-content;
   color: #fff;
   border-radius: 25px;
   outline: none;
@@ -268,19 +268,16 @@ header {
   background-color: whitesmoke;
   color: black;
   transition: 1s;
-}
+} */
 
 /* timer */
-
 h1 span {
   display: inline-block;
   animation: animate 1s linear infinite;
 }
 #clockdiv {
-  position: relative;
-
-  margin-left: 39.3vw;
-  margin-top: 47vh;
+  position: absolute;
+  bottom: 0;
   text-shadow: red;
   color: wheat;
   display: inline-block;
