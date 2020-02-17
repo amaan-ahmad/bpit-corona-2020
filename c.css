@@ -238,7 +238,10 @@ h1 span {
   bottom: 0;
   text-shadow: red;
   color: wheat;
-  display: inline-block;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  padding: 0 1em;
   font-weight: 100;
   text-align: center;
   font-size: 2em;
@@ -248,11 +251,11 @@ h1 span {
   transition: 0.3s, 0s, ease-in-out;
 }
 #clockdiv > div {
-  padding: 10px;
+  padding: 0 3%;
   border-radius: 3px;
-  /* background: orange;  */
   display: inline-block;
-
+  width: fit-content;
+  height: fit-content;
   text-align: center;
 }
 #clockdiv div > span {
@@ -261,20 +264,16 @@ h1 span {
   padding-bottom: 1px;
   border-width: 5px;
   border-color: black;
-  height: 60px;
-  width: 42px;
+  height: auto;
+  width: auto;
   border-radius: 5px;
   background: rgba(0, 0, 0, 0.7);
   display: inline-block;
-
-  box-shadow: 5px;
   text-align: center;
 }
 .smalltext {
   padding-top: 0px;
   font-size: 15px;
-  position: relative;
-  top: -25px;
   color: orangered;
   font-weight: bold;
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,

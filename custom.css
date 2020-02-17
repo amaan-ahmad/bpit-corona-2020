@@ -245,6 +245,9 @@ html {
   #clockdiv{
     font-size: 1.2em;
   }
+  #clockdiv > div.smalltext{
+    font-size: small;
+  }
 }
 /* -------------- */
 
