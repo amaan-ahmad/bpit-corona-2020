@@ -193,7 +193,8 @@ header {
   background-color: black;
   height: auto;
   width: 100%;
-  /* position: fixed; */
+  z-index: 3;
+  position: fixed;
 }
 .logo {
   height: auto;

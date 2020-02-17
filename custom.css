@@ -13,16 +13,20 @@ html {
   width: 100vw;
   background-color: rgba(0,0,0,0.5);
 }
-.sticky-register{
-  bottom: 50%;
+/* .sticky-register{
+  bottom: 0;
   left:0;
   position: fixed;
   z-index: 1000;
   padding: 1em;
   border-style: solid;
-  background-color: transparent;
-  color :white;
-}
+  background-color: whitesmoke;
+  color : black;
+  width: 25px;
+  word-wrap: break-word;
+  padding:0.5em;
+  font-weight: 700;
+} */
 @media screen and (max-width: 1000px) {
   .two {
     align-items: center;
@@ -62,7 +66,7 @@ html {
 .flip-card {
   background-color: transparent;
   width: 50vw;
-  height: 300px;
+  height: 400px;
   perspective: 1000px;
 }
 
