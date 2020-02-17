@@ -227,48 +227,6 @@ header {
 .menu-area li a:hover {
   color: #f5bb00;
 }
-/* .banner-text
-{
-    position: absolute;
-    top: 25%;
-    text-align: center;
-    left: 35%;
-    letter-spacing: 3px;
-} */
-/* .banner-text h2 {
-  color: #fff;
-  font-size: 80px;
-  margin: 0;
-}
-.banner-text h2 span {
-  color: #fff;
-}
-.banner-text h3 {
-  color: #fff;
-  font-size: 18px;
-  margin: 0;
-  font-weight: bold;
-}
-.btn {
-  display: inline-block;
-  margin-top: 10%;
-  background: transparent;
-  border: 0;
-  font-size: 20px;
-  text-transform: uppercase;
-  border: 3px solid #fff;
-  padding: 1em;
-  width: fit-content;
-  color: #fff;
-  border-radius: 25px;
-  outline: none;
-}
-.btn:hover {
-  letter-spacing: 2px;
-  background-color: whitesmoke;
-  color: black;
-  transition: 1s;
-} */
 
 /* timer */
 h1 span {

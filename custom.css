@@ -9,7 +9,7 @@ html {
   align-items: center;
   /* z-index: 12; */
   flex-direction: column;
-  height: 100vh;
+  height: 95vh;
   width: 100vw;
   background-color: rgba(0,0,0,0.5);
 }
@@ -236,6 +236,13 @@ html {
     flex-direction: column;
   }
   
+  .banner-text span h2{
+    font-size: 3em;
+  }
+  .banner-text h3{
+    font-size: 0.7em;
+  }
+
 }
 /* -------------- */
 .f > div > div , #divToShow > div > div{
