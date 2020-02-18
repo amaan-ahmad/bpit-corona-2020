@@ -1,0 +1,103 @@
+h1{
+    text-align: center;
+    color: white;
+    font-size: 50px;
+}
+
+.broader{
+    width: 100%;
+    height: 85vh;
+    border-width: 3px 0px 0px 0px ;
+    border-style: solid;
+    border-color: red;
+    
+    display: flex;
+    margin-bottom: 6%;
+}
+.events{
+    height: 100%;
+    width: 30%;
+    margin-top: 2%;
+    background-color:#404040;
+    border-color: black;
+    border-style: hidden;
+    border-width: 0px 2px 0px 0px;
+    margin-left: 1.5% ;
+}
+.broader1{
+    width: 100%;
+    height: 85vh;
+
+    display: flex;
+   
+    border-width: 3px 0px 0px 0px ;
+    border-style: solid;
+    border-color: red;
+    
+}
+.events1{
+    height: 100%;
+    width: 30%;
+    margin-top: 2%;
+   background-color: #404040;
+    border-color: black;
+    border-style: hidden;
+    border-width: 0px 2px 0px 0px;
+   }
+   h2{
+       text-align: center;
+       color: white;
+       font-size: 40px;
+   }
+   h1{
+       margin-bottom: 5%;
+   }
+   .broader2{
+    width: 100%;
+    height: 85vh;
+    border-width: 3px 0px 0px 0px ;
+    border-style: solid;
+    border-color: red;  
+   
+    display: flex;
+    
+    margin-bottom: 7%;
+    margin-top: 5%;
+   }
+   .eventimg{
+       width: 100%;
+       height: 160px;
+      
+        margin-top: 4%;
+        margin-bottom: 30%;
+   }
+   .eventimg img{
+       width: 100%;
+       height: 100%;
+   }
+   .events a{
+       color:#d9d9d9;
+       text-align: center;
+       font-size: 28px;
+       margin-bottom: 10%;
+       text-decoration: none;
+   }
+   .events a:hover{
+       color: #ffff66;
+       text-decoration: underline;
+   }
+  
+   .events1 a{
+    color: #d9d9d9;
+    text-align: center;
+    font-size: 28px;
+    margin-bottom: 10%;
+    text-decoration: none;
+}
+.events1 a:hover{
+    color:#ffff66;
+    text-decoration: underline;
+}
+body{
+    background-color: black;
+}
