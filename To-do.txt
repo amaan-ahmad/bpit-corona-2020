@@ -1,4 +1,4 @@
-LOGO++;
+LOGO - done;
 
 FONT-done;
 BPIT - TEXT ALIGN -done;
