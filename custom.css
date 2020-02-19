@@ -9,12 +9,15 @@ body{
   -webkit-box-sizing: border-box;
      -moz-box-sizing: border-box;
           box-sizing: border-box;
+          /* scroll-behavior: smooth;  */
+
 }
 
 html {
   overflow-x: hidden;
-  /* -webkit-overflow-scrolling: touch;
-  scroll-behavior: smooth !important; */
+  /* scroll-behavior: smooth; */
+
+  /* -webkit-overflow-scrolling: touch;*/
 }
 .p-1 {
   display: flex;
@@ -177,6 +180,14 @@ html {
   margin: 0;
   text-align: center;
 }
+#sidebarcontent a {
+  text-decoration: none;
+  color: wheat;
+}
+
+#one p {
+  text-align: justify;
+}
 @media screen and (max-width: 800px) {
   .root-gl .r1 {
     align-self: center !important;
@@ -310,5 +321,9 @@ p#contact1 span.oc{
   }
   .subs1 img {
     width: 100%;
+  }
+
+  #btnSeeMore_1, #btnSeeMore_2{
+    align-self: center;
   }
 }

@@ -54,7 +54,7 @@ if (t < 0) {
         i++; if (i > 30) return;
         c.scrollTop = a + (b - a) / 30 * i;
         setTimeout(function(){ scroll(c, a, b, i); }, 20);
-        document.getElementById('meny').style.display='None';   
+        document.getElementById('menu').style.display='None';   
     }
     //this will start scrolling
     scroll(scrollContainer, scrollContainer.scrollTop, targetY, 0);
@@ -128,7 +128,6 @@ function newslider()
 {
     document.getElementById("hamburger").classList.toggle('active');
 }
-let w = 0;
 
 function myslider()
 {

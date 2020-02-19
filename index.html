@@ -11,7 +11,16 @@
   <link rel="stylesheet" href="c.css">
   <link rel="stylesheet" href="custom.css">
 </head>
-
+<!-- <style>
+  html{
+    scroll-behavior: smooth;
+  }
+  @media screen and (prefers-reduced-motion: reduce) {
+	html {
+		scroll-behavior: auto;
+	}
+}
+</style> -->
 <body>
 
   <div class="loader-bg">
@@ -87,15 +96,14 @@
     </div>
 
     <ul id="sidebarcontent">
-      <li class="con" onclick="smoothScroll(document.querySelector('#home_page'))">HOME</li>
-      <li class="con" onclick="smoothScroll(document.querySelector('#one'))">ABOUT</li>
-      <li class="con" onclick="smoothScroll(document.querySelector('.two'))">PAST STARS</li>
-      <li class="con" onclick="smoothScroll(document.querySelector('.three'))">GLIMPSES</li>
-      <li class="con" onclick="smoothScroll(document.querySelector('#four'))">GALLARY</li>
-      <li class="con" onclick="smoothScroll(document.querySelector('.five'))">PAST STATS</li>
-      <li class="con" onclick="smoothScroll(document.querySelector('.six'))">GOSSIPS</li>
-      <li class="con" onclick="smoothScroll(document.querySelector('.upperfooter'))">CONTACT US
-      </li>
+      <a data-scroll href="#home_page"><li class="con" onclick="smoothScroll(document.querySelector('#home_page'))">  HOME</li></a>
+      <a href="#one"> <li class="con" onclick="smoothScroll(document.querySelector('#one'))">ABOUT</li></a>
+      <a href="#past-stars"><li class="con" onclick="smoothScroll(document.querySelector('.two'))">PAST STARS</li></a>
+      <a href="#glimpse"><li class="con" onclick="smoothScroll(document.querySelector('.three'))">GLIMPSES</li></a>
+      <a href="#four"><li class="con" onclick="smoothScroll(document.querySelector('#four'))">GALLARY</li></a>
+      <a href="#past-stats"><li class="con" onclick="smoothScroll(document.querySelector('.five'))">PAST STATS</li></a>
+      <a href="#gossips"><li class="con" onclick="smoothScroll(document.querySelector('.six'))">GOSSIPS</li></a>
+      <a href="#footer"><li class="con" >CONTACT US</li></a>
 
     </ul>
 
@@ -112,47 +120,6 @@
 
   </div>
 
-
-
-  <!-- new menu ends  -->
-
-
-  <!-- 
-  <label>
-      <input type="checkbox" > 
-          <span class="menu" onclick="myfunction()">
-              <span class="hamburger"></span>
-          </span> 
-
-          
-          <ul>
-              <img src="imagesandfolder\ticket.png" class="ticket"><li> <button type="button" id="button">GRAB YOUR PASSES</button></li>
-              <br>
-              <li><a href="#" onclick="smoothScroll(document.querySelector('#home_page'))">HOME</a></li>
-              <li><a href="#" onclick="smoothScroll(document.querySelector('#one'))">ABOUT US</a></li>
-              <li><a href="#" onclick="smoothScroll(document.querySelector('.two'))">HIGHLIGHTS</a></li>
-              <li><a href="#" onclick="smoothScroll(document.querySelector('.three'))">PAST STARS</a></li>
-              <li><a href="#" onclick="smoothScroll(document.querySelector('.four'))">FORMAL EVENTS</a></li>
-              <li><a href="#" onclick="smoothScroll(document.querySelector('.five'))">PAST STATS</a></li>
-              <li><a href="#" onclick="smoothScroll(document.querySelector('.six'))">GOSSIPS</a></li>
-          
-          </ul>
-
-          <span id="icons">
-  
-              <a href="*"><img class="iconsubclass" src="imagesandfolder\a.png" ></a>
-              <a href="*"><img class="iconsubclass" src="imagesandfolder\b.png" ></a>
-              <a href="*"><img class="iconsubclass" src="imagesandfolder\c.png" ></a>
-              <a href="*"><img class="iconsubclass" src="imagesandfolder\d.png" ></a>
-              
-          </span> -->
-
-  <!-- </label> -->
-
-
-
-  <!-- top area ends about us area starts-->
-
   <div id="one">
     <h1 class="about_ani">ABOUT CORONA</h1>
       <p>
@@ -160,7 +127,7 @@
       </p>
   </div>
   <div class="parallax1"></div>
-  <div class="two">
+  <div class="two" id="past-stars">
     <h1 class="past_ani">PAST STARS</h1>
     <h2>Here are some of the amazing artists we had over the years</h2>
     <div class="star-tiles">
@@ -200,7 +167,7 @@
     </div>
   </div>
   <div class="parallax2"></div>
-  <div class="three">
+  <div class="three" id="glimpse">
     <h1 class="glimpses_ani">SOME GLIMPSES FROM PAST</h1>
     <div class="root-gl">
       <div class="r1">
@@ -336,7 +303,7 @@
     </div>
   </div>
   <div class="parallax4"></div>
-  <div class="five">
+  <div class="five" id="past-stats">
     <h1 class="stats_ani">PAST STATS</h1>
     <h2>Here are some of the statistics from CORONA 2019:</h2>
     <div class="past-elements">
@@ -358,7 +325,7 @@
   <div class="gossip-head">
     <h1 class="mightSay_ani">WHAT PEOPLE SAY ?</h1>
   </div>
-  <div class="six">
+  <div class="six" id="gossips">
     <img src="imagesandfolder/if2.png" class="sixbtn1" onclick="myfunction1()" />
 
     <div id="sixa">
@@ -378,53 +345,7 @@
   </div>
   <div class="parallax6"></div>
 
-  <!-- footer of website -->
-  <!-- <div class="upperfooter">
-    <img src="imagesandfolder\send.PNG" id="hep">
-    <span id="contact"><u>CONTACT US</u></span>
-    <br>
-    <span id="contact1">Want to associate with us or have questions about our fest?<br> Feel free to talk to us, we will
-      be happy to answer you. Here is how to reach us:</span>
-
-
-    <div class="maincontent">
-
-      <div id="connect">
-        <h1><u>CONTACT</u></h1>
-        <h3>Call:<br>
-          HARSH: +91 9560462128 <br>
-          PARTH: +91 9811039021<br>
-          UNKNOWN: +91 9711601212<br>
-          EMAIL ID:<br>
-          Corona@bpitindia.com</h3>
-
-      </div>
-
-
-      <div id="sponser">
-        <h1><u>SPONSERS</u></h1>
-
-        <h3>
-          <li>INDIAN BANK</li>
-          <li>POKER SAINT</li>
-          <li>HINDUSTAN PETROLEUM</li>
-          <li>GOOGLE</li>
-          <li>FACEBOOK</li>
-        </h3>
-
-
-      </div>
-      <div id="address">
-        <h1><u>ADDRESS</u></h1>
-        <h3>BHAGWAN PARSHURAM INSTITUTE<br> OF TECHNOLOGY <br>PSP-4, Dr KN KATJU MARG, SECTOR 17, ROHINI, NEW DELHI,<br>
-          DELHI 110089.</h3>
-
-      </div>
-
-
-
-    </div> -->
-  <div class="upperfooter">
+  <div class="upperfooter" id="footer">
     <span id="contact">CONTACT US</span>
     <p id="contact1">Want to associate with us or have questions about our fest?<br> Feel free to talk to us, we will
       be happy to answer you. Here is how to reach us:</span>
@@ -455,16 +376,12 @@
             DELHI 110089.</h3>
         </div>
       </div>
-      <!-- <span class="oc">
-        TEAM OC
-      </span> -->
   </div>
 
   <!--upper footer ends-->
   <div class="footer">
 
     <div class="heading">
-      <!-- <a href="#"><img class="iconsubclass" src="imagesandfolder\a.png"></a> -->
       <a href="#"><img class="iconsubclass" src="imagesandfolder\d.png"></a>
       <a href="#"><img class="iconsubclass" src="imagesandfolder\b.png"></a>
       <a href="#"><img class="iconsubclass" src="imagesandfolder\web.png"></a>
@@ -501,6 +418,13 @@
     setTimeout(function () {
       $('.loader-bg').fadeToggle();
     }, 1200);
+  </script>
+
+  <script src="https://cdn.jsdelivr.net/gh/cferdinandi/smooth-scroll@15.0.0/dist/smooth-scroll.polyfills.min.js"></script>
+  <script>
+    var scroll = new SmoothScroll('a[href*="#"]', {
+	      speed: 300
+    });
   </script>
   <script src="heading_js.js"></script>
 

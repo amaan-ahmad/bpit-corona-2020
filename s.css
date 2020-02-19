@@ -669,9 +669,10 @@ header {
   display: inline-block;
   line-height: 1em;
 }
-#btnSeeMore_1 {
-  height: 5.5vh;
-  width: 8vw;
+#btnSeeMore_1 , #btnSeeMore_2{
+  height: fit-content;
+  padding: 0.7em;
+  width: fit-content;
   border-radius: 30px;
   border: none;
   font-size: 20px;
@@ -679,19 +680,6 @@ header {
   box-shadow: 6px 5px 10px whitesmoke;
   background-color: black;
   color: white;
-  position: absolute;
-  right: 40px;
-}
-#btnSeeMore_2 {
-  height: 5.5vh;
-  width: 8vw;
-  border-radius: 30px;
-  border: none;
-  font-size: 20px;
-  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
-  box-shadow: 6px 5px 10px whitesmoke;
-  background-color: black;
-  color: white;
-  position: absolute;
-  right: 40px;
+  margin:1em 0;
+
 }
