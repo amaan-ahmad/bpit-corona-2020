@@ -190,23 +190,28 @@ header {
   min-height: 100%;
 }
 .nav-area {
-  background-color: black;
+  /* background-color: black; */
   height: auto;
   width: 100%;
   z-index: 3;
   position: fixed;
 }
-.logo {
+.logo , .logo img{
+  padding:0.5rem;
   height: auto;
+  width: 45px;
   float: left;
   color: #fff;
   font-size: 25px;
   text-transform: capitalize;
   font-weight: bold;
+  font-family: Montserrat, monospace;
+  display: inline-flex;
   letter-spacing: 3px;
 }
 .logo span {
   color: white;
+  /* position: absolute; */
 }
 .menu-area {
   float: right;

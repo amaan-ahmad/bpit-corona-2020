@@ -267,7 +267,9 @@ html {
 }
 /* -------------- */
 
-
+.nav-area .hamburger{
+  z-index: 100;
+}
 
 
 .f > div > div , #divToShow > div > div{
@@ -275,7 +277,9 @@ html {
   width : auto;
 }
 
-
+.logo span{
+  display: none;
+}
 .footcontent a{
   text-decoration: none;
   color: white;
