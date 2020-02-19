@@ -264,6 +264,9 @@ html {
   #clockdiv > div.smalltext{
     font-size: small;
   }
+  .parent{
+    flex-direction: column;
+  }
 }
 /* -------------- */
 

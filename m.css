@@ -15,11 +15,11 @@
 #one p {
   margin: 0 1em;
   font-weight: 300;
-  font-style: normal;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   line-height: 1.6;
   color: whitesmoke;
   text-align: left/center;
-  font-size: 1rem;
+  font-size: 1.2em;
 }
 #one p::first-letter {
   font-size: xx-large;

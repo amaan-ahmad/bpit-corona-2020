@@ -1,9 +1,12 @@
+@import url('https://fonts.googleapis.com/css?family=Titillium+Web&display=swap');
+
 body{
     background-image: url('images/back.jfif');
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
-
+    margin: 0;
+    padding: 0;
 }
 
 
@@ -14,7 +17,7 @@ body{
     position: fixed;
     width: 100vw;
     height: 100vh;
-    background-color: rgba(0, 0, 0, 0.5);
+    background-color: rgba(0, 0, 0, 0.7);
 }
 h1{
     text-align: center;
@@ -28,20 +31,21 @@ h1{
     display: flex;
    
     width: 100%;
-    height: 820px;
+    height: fit-content;
 
 }
 .child1{
-   
+    display: flex;
+    flex-direction: column;
     width: 50%;
 
 }
 .gchild{
     
-    height: 150px;
+    height: fit-content;
     display: flex;
     margin-top: 4%;
-
+    /* height: 40vh; */
 }
 .ggchild1{
     width:40%;
@@ -55,18 +59,23 @@ h1{
     width: 80%;
     height:100%;
 }
-.ggchild2 p{
-    margin-left: 5%;
-    font-size: 30px;
-    margin-bottom: 2%;
+.ggchild2 p, .oc .about-oc .name{
+    font-size: 2.5em;
+    font-family: 'Titillium Web','Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     color: white;
+}
+
+.ggchild2 p:nth-child(2), .oc .about-oc .role{
+    font-size: 1.2em;
+    text-transform: capitalize;
+    color: white;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
 }
 .parent2{
     margin-top: 15%;
     height: 500px;
     width: 100%;
- 
-    
+
 }
 .c1{
     height: 40px;
@@ -100,8 +109,8 @@ h1{
     color: white;
 }
 a{
-    text-decoration: underline;
-    color: blue;
+    text-decoration: none;
+    color: whitesmoke;
     }
 
 a:hover{
@@ -112,4 +121,36 @@ h2{
     text-align: center;
     color: white;
     
+}
+
+.oc{
+    margin-top: 4%;
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: fit-content;
+    align-items: center;
+    justify-content: center;
+}
+.oc img{
+    padding: 1em;
+    width: 30%;
+    height: auto;
+}
+
+
+@media screen and (max-width: 800px){
+    .parent{
+        flex-direction: column;
+    }
+    .child1{
+        width: 100%;
+    }
+    .oc{
+        align-items: flex-start;
+        justify-content: flex-start;
+    }
+    .oc img { 
+        padding: 0;
+    }
 }
