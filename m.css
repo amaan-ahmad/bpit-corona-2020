@@ -573,6 +573,9 @@ width: 100%;
   background-color: black;
 }
 
+.sixbtn1{
+  transform: rotateY(180deg); 
+}
 .parallax6 {
   /* The image used */
   background-image: url("imagesandfolder/wp3770802.jpg");
