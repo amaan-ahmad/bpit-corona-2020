@@ -1,11 +1,21 @@
 body{
-    background-image: url('images/71096.jpg');
-    height: 100%;
-    width: 100%;
+    background-image: url('images/back.jfif');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+
 }
 
 
-
+.overlay{
+    top:0;
+    left: 0;
+    z-index: -1;
+    position: fixed;
+    width: 100vw;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.5);
+}
 h1{
     text-align: center;
     color: white;
