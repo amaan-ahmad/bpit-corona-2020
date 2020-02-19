@@ -1,4 +1,7 @@
 /* github.com/amaan-ahmad */
+
+@import url('https://fonts.googleapis.com/css?family=Montserrat&display=swap');
+
 html {
   overflow-x: hidden;
   scroll-behavior: smooth !important;
@@ -273,3 +276,7 @@ html {
 }
 
 
+.footcontent a{
+  text-decoration: none;
+  color: white;
+}
