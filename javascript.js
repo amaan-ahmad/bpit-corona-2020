@@ -1,6 +1,7 @@
 
  window.onscroll = function () {
   window.scrollTo(0,window.scrollY);
+  // this.console.log('dont scrolll !!');
 };
 
 
