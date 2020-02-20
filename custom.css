@@ -3,6 +3,7 @@
 @import url('https://fonts.googleapis.com/css?family=Montserrat&display=swap');
 
 
+
 body{
   overflow-x: hidden;
   width: 100%;
@@ -333,5 +334,9 @@ p#contact1 span.oc{
 
   #btnSeeMore_1, #btnSeeMore_2{
     align-self: center;
+  }
+  .about_ani,.past_ani, .mightSay_ani{
+    word-wrap: break-word;
+    font-size: 2em;
   }
 }
