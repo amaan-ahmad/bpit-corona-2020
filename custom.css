@@ -335,8 +335,9 @@ p#contact1 span.oc{
   #btnSeeMore_1, #btnSeeMore_2{
     align-self: center;
   }
-  .about_ani,.past_ani, .mightSay_ani{
+  h1.about_ani, h1.past_ani, h1.mightSay_ani, h1.highlights_ani{
     word-wrap: break-word;
-    font-size: 2em;
+    font-size: 1.6em !important;
+    padding: 1em;
   }
 }
