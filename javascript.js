@@ -129,6 +129,10 @@ function newslider()
     document.getElementById("hamburger").classList.toggle('active');
 }
 
+function sidekaryaar(){
+  document.getElementById("sidebar").style.left = '100%';
+}
+
 function myslider()
 {
     document.getElementById("sidebar").classList.toggle('active');

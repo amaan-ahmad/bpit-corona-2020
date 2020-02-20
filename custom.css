@@ -9,7 +9,7 @@ body{
   -webkit-box-sizing: border-box;
      -moz-box-sizing: border-box;
           box-sizing: border-box;
-          /* scroll-behavior: smooth;  */
+          scroll-behavior: smooth; 
 
 }
 
@@ -187,7 +187,15 @@ html {
 
 #one p {
   text-align: justify;
+  font-size: 1em;
 }
+
+
+/* .oc-root .parent .child1{ 
+
+} */
+
+
 @media screen and (max-width: 800px) {
   .root-gl .r1 {
     align-self: center !important;
