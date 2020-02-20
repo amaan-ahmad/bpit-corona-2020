@@ -215,7 +215,7 @@ html {
     height: auto;
   }
   .elem{
-    margin: 1em 0;
+    margin: 0;
   }
 
   .four, .f{
@@ -335,9 +335,10 @@ p#contact1 span.oc{
   #btnSeeMore_1, #btnSeeMore_2{
     align-self: center;
   }
-  h1.about_ani, h1.past_ani, h1.mightSay_ani, h1.highlights_ani{
-    word-wrap: break-word;
-    font-size: 1.6em !important;
+  h1.about_ani, h1.past_ani, h1.mightSay_ani, h1.highlights_ani, h1.glimpses_ani, h1.stats_ani{
+    overflow-wrap: break-word;
+    font-size: 2em !important;
+    text-align: center;
     padding: 1em;
   }
 }
