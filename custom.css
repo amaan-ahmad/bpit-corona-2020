@@ -312,6 +312,7 @@ p#contact1 span.oc{
   }
   .flip-card-front img{
     height: auto;
+    width: auto;
   }
   .subtwo {
     flex-direction: column;
