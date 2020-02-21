@@ -10,8 +10,13 @@ h1{
     text-align: center;
     color: white;
     font-size: 40px;
-    font-family: 'Times New Roman', Times, serif
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     
+}
+
+h2{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-decoration: none !important;
 }
 
 .parent{
@@ -119,6 +124,10 @@ h2{
 
     .child1{
         width: 100%;
+    }
+
+    .gchild{
+        padding: 1em;
     }
 
 }
