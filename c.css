@@ -209,6 +209,11 @@ header {
   display: inline-flex;
   letter-spacing: 3px;
 }
+
+.logo img {
+   width: 10vw;
+   height: auto;
+}
 .logo span {
   color: white;
   /* position: absolute; */
