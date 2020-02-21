@@ -28,7 +28,7 @@ h1{
 }
 .gchild{
     
-    height: 150px;
+    height: fit-content;
     display: flex;
     margin-top: 4%;
     
@@ -47,11 +47,15 @@ h1{
     width: 80%;
     height:100%;
 }
+.ggchild2 a p {
+    font-size: 2em;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
 .ggchild2 p{
-    margin-left: 5%;
-    font-size: 30px;
-    margin-bottom: 2%;
+    font-size: 1em;
     color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
 }
 .parent2{
     margin-top: 10%;
@@ -104,4 +108,17 @@ h2{
     color: white;
     text-decoration:  underline red;
     
+}
+
+
+@media screen and (max-width: 800px){
+
+    .parent{
+        flex-direction: column;
+    }
+
+    .child1{
+        width: 100%;
+    }
+
 }
