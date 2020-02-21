@@ -345,4 +345,9 @@ p#contact1 span.oc{
     text-align: center;
     padding: 1em;
   }
+  .logo img{
+
+    width: 8vw;
+    height: auto;
+  }
 }
