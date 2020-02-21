@@ -54,8 +54,8 @@ html {
 }
 
 .flip-card-front img {
-  width: auto;
-  height: auto;
+  width: 300px;
+  height: 300px;
 }
 
 .flip-card-inner {
@@ -265,7 +265,13 @@ html {
   .parent{
     flex-direction: column;
   }
+
+  .flip-card-front img{
+    width: 35vw;
+    height: auto;
+  }
 }
+
 /* -------------- */
 
 .nav-area .hamburger{
@@ -313,10 +319,10 @@ p#contact1 span.oc{
     /* height: 50vh; */
     margin-bottom: 5vh;
   }
-  .flip-card-front img{
+  /* .flip-card-front img{
     height: auto;
     width: auto;
-  }
+  } */
   .subtwo {
     flex-direction: column;
     align-items: center;
