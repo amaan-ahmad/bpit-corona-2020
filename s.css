@@ -345,20 +345,29 @@ header {
 .loader {
   border: 0 solid transparent;
   border-radius: 50%;
-  width: 200px;
-  height: 200px;
-  position: absolute;
+  width: 100vw;
+  height: 100vh;
+  justify-self: center;
+  display: flex;
+  justify-content: center;
+}
+
+.loader p{
+  justify-self: center;
+  align-self: center;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; 
+  position:fixed;
+  color:orangered
 }
 .loader:before,
 .loader:after {
   content: "";
   border: 1em solid orangered;
   border-radius: 50%;
-  width: inherit;
-  height: inherit;
+  width: 300px;
+  height: 300px;
   position: absolute;
-  top: 30vh;
-  left: 43vw;
+  align-self: center;
   animation: loader 2s linear infinite;
   opacity: 0;
 }

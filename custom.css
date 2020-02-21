@@ -290,7 +290,10 @@ p#contact1 span.oc{
   font-weight: bolder;
 } */
 
-
+.grab div img{
+  height: 60px;
+  width: 60px;
+}
 @media screen and (max-width: 800px) {
 
   .two {
